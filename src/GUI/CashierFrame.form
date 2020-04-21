@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.CashierFrame">
+  <grid id="27dc6" binding="panelc" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="879" height="530"/>
+    </constraints>
+    <properties>
+      <background color="-5046560"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="11be2" class="javax.swing.JButton" binding="updateCashierButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Update Cashier"/>
+        </properties>
+      </component>
+      <component id="1b8a8" class="javax.swing.JButton" binding="selectFromCashierButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Select * from Cashier"/>
+        </properties>
+      </component>
+      <component id="919da" class="javax.swing.JButton" binding="deleteALLFromCashierButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Delete ALL from Cashier"/>
+        </properties>
+      </component>
+      <component id="25856" class="javax.swing.JTextArea" binding="citire">
+        <constraints>
+          <grid row="3" column="0" row-span="2" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="adb39" class="javax.swing.JTextArea" binding="afisare">
+        <constraints>
+          <grid row="3" column="2" row-span="2" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b2c23" class="javax.swing.JButton" binding="addCashierButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add cashier"/>
+        </properties>
+      </component>
+      <component id="d1234" class="javax.swing.JButton" binding="backButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="227" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Back"/>
+        </properties>
+      </component>
+      <component id="c441e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Aici se va face inserarea"/>
+        </properties>
+      </component>
+      <component id="8ad23" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Aici se va afisa"/>
+        </properties>
+      </component>
+      <component id="d9da9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="672" height="271"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Add cashier: de forma ID, on-duty. Ex: &quot;9, 1&quot; Va adauga un nou vanzator cu id-ul 20, fiind on-duty"/>
+        </properties>
+      </component>
+      <component id="8eeb0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="227" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Update Cashier: este necesar Id-ul. Ex: &quot;1, 0&quot; va cauta vanzatorul cu id-ul 1 si il va updata ca find off-duty"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
